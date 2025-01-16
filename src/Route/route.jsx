@@ -7,6 +7,7 @@ import { Box } from "@mui/material";
 import Registration from "../Pages/RegistrationPages/Registration.jsx";
 import Login from "../Pages/LoginPage/LoginPage.jsx";
 import AdminPanel from "../Pages/AdminPanelPages/AdminPanelPages.jsx";
+import Footer from "../Components/FooterComponents/footer.jsx";
 
 
 
@@ -42,7 +43,7 @@ const RoutersComponents = () => {
         <Route path="/signUp" element={<Registration />} />
         <Route path="/adminPanel" element={<AdminPanel/>} />
       </Routes>
-
+      <Footer/>
 
     </>
   );
